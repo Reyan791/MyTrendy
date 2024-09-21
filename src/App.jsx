@@ -1,11 +1,15 @@
 import './App.css'
+import Header from './Pages/Header/header'
+import Mainbanner from './Pages/Hero-Section/main-banner'
+import Skills from './Pages/Skills/skills'
 
 function App() {
 
   return (
     <>
-      <h1>hi Reyan</h1>
-      <h1>h3</h1>
+  	<Header/>
+    <Mainbanner/>
+    <Skills/>
     </>
   )
 }
